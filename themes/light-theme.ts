@@ -50,22 +50,24 @@ export const lightTheme = createTheme({
 
 
     MuiButton: {
-      defaultProps: {
-        variant: 'contained',
-        size: 'small',
-        disableElevation: true,
-      },
-      styleOverrides: {
-        root: {
-          textTransform: 'none',
-          boxShadow: 'none',
-          borderRadius: 10,
-          ":hover": {
-            backgroundColor: 'rgba(0,0,0,0.05)',
-            transition: 'all 0.3s ease-in-out'
-          }
+        defaultProps: {
+            variant: 'contained',
+            size: 'small',
+            disableElevation: true,
+        },
+        styleOverrides: {
+            root: {
+                backgroundColor: 'white',
+                color: 'black',
+                textTransform: 'none',
+                boxShadow: 'none',
+                borderRadius: 10,
+                ":hover": {
+                    backgroundColor: 'rgba(0,0,0,0.05)',
+                    transition: 'all 0.3s ease-in-out'
+                }
+            }
         }
-      }
     },
 
 
